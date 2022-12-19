@@ -70,7 +70,7 @@ const oauth2 = require('simple-oauth2').create(serverAuth.credentials);
 // Authorization oauth2 URI
 const authorizationUri = oauth2.authorizationCode.authorizeURL({
     redirect_uri: appRedirectUri,
-    state: '<state>'
+    state: '12345678'
 });
 
 /**
